@@ -1,0 +1,45 @@
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+.stacked {
+  display: grid;
+}
+
+.stacked > * {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  /* border: 3px solid hotpink; */
+  aspect-ratio: 1/1.5;
+}
+
+.card__content {
+  background-color: var(--white);
+  align-self: flex-end;
+  margin: 0.5rem 0.5rem 2rem;
+  padding: 0.5rem;
+  box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 0.1);
+}
+
+.card__title {
+  color: firebrick;
+}
+
+.card__price {
+  font-size: 1.75rem;
+}
+
+.card__img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
