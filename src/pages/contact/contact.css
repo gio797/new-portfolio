@@ -1,0 +1,24 @@
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.links {
+  display: inline-block;
+}
+
+.contact button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--grey);
+  border: none;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  color: var(--grey-light);
+}

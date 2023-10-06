@@ -1,4 +1,8 @@
 import "./home.css";
+import { BiSolidFileCss, BiLogoJavascript } from "react-icons/bi";
+import { FaReact } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+import { PiFileHtmlFill } from "react-icons/pi";
 
 function Home() {
   return (
@@ -8,20 +12,18 @@ function Home() {
         frontend developer
         <span aria-hidden="true">frontend developer</span>
       </h1>
-
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt earum
-        ipsam ipsum adipisci? At dolorum laboriosam suscipit ipsum dicta facere,
-        maiores magnam quam! Eum id magnam excepturi tenetur maiores, ratione
-        magni minima eveniet quam rerum nostrum, repellendus vero dignissimos
-        aperiam illo dolore harum numquam quod ut aut sit! Iste iure quaerat,
-        eligendi animi ab eum obcaecati, libero doloremque repellendus ea
-        suscipit est accusantium temporibus pariatur voluptatibus consequatur
-        culpa esse voluptas dolorum tempora sit ullam. Illum pariatur, maiores,
-        quas iusto nihil ea facilis officia cumque ex possimus sint unde, odit
-        saepe dicta obcaecati accusantium doloribus maxime molestias. Ex
-        explicabo consequuntur iste.
-      </p>
+      <div className="info">
+        <h2>My name is Giorgi Muchaidze</h2>
+        <p>I am a frontend developer based in Tbilisi, Georgia.</p>
+        <h3>My skills:</h3>
+        <div className="skills">
+          <PiFileHtmlFill size={50} color="#ef6525" />
+          <BiSolidFileCss size={50} color="#299cf8" />
+          <BiLogoJavascript size={50} color="#f7e025" />
+          <SiTypescript size={50} color="#299cf8" />{" "}
+          <FaReact size={50} color="#299cf8" />
+        </div>
+      </div>
     </div>
   );
 }

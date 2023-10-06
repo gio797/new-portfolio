@@ -9,7 +9,7 @@ import cardImg7 from "../../assets/pexels-mindscape-18442268.jpg";
 
 function Projects() {
   return (
-    <div className="container">
+    <div className="container" id="projects">
       <div className="projects-grid">
         <div className="card stacked featured">
           <img src={cardImg1} alt="" className="card__img" />
