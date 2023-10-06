@@ -11,7 +11,7 @@ function Projects() {
   return (
     <div className="container">
       <div className="projects-grid">
-        <div className="card stacked">
+        <div className="card stacked featured">
           <img src={cardImg1} alt="" className="card__img" />
           <div className="card__content">
             <h2 className="card__title">Lorem, ipsum dolor.</h2>
