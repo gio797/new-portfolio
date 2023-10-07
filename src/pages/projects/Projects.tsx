@@ -1,74 +1,84 @@
 import "./projects.css";
-import cardImg1 from "../../assets/pexels-nadezhda-moryak-6229045.jpg";
-import cardImg2 from "../../assets/pexels-blaz-erzetic-2426085.jpg";
-import cardImg3 from "../../assets/pexels-sourav-majumdar-18440392.jpg";
-import cardImg4 from "../../assets/pexels-dan-cristian-pădureț-1476321.jpg";
-import cardImg5 from "../../assets/pexels-emirhan-sucu-18411634.jpg";
-import cardImg6 from "../../assets/pexels-hendrik-b-744318.jpg";
-import cardImg7 from "../../assets/pexels-mindscape-18442268.jpg";
+
+import proj1 from "../../assets/projects/proj1.png";
+import proj2 from "../../assets/projects/proj2.png";
+import proj3 from "../../assets/projects/proj3.png";
+import proj4 from "../../assets/projects/proj4.png";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
     <div className="container" id="projects">
       <div className="projects-grid">
-        <div className="card stacked featured">
-          <img src={cardImg1} alt="" className="card__img" />
-          <div className="card__content">
-            <h2 className="card__title">Lorem, ipsum dolor.</h2>
-            <p className="card__price">$325</p>
-            <p className="card__description">Lorem, ipsum dolor.</p>
-          </div>
-        </div>
         <div className="card stacked">
-          <img src={cardImg2} alt="" className="card__img" />
+          <img src={proj1} alt="" className="card__img" />
           <div className="card__content">
-            <h2 className="card__title">Lorem, ipsum dolor.</h2>
-            <p className="card__price">$325</p>
-            <p className="card__description">Lorem, ipsum dolor.</p>
-          </div>
-        </div>
-        <div className="card stacked">
-          <img src={cardImg3} alt="" className="card__img" />
-          <div className="card__content">
-            <h2 className="card__title">
-              Lorem, ipsum dolor.Lorem, ipsum dolor.
-            </h2>
-            <p className="card__price">$325</p>
-            <p className="card__description">Lorem ipsum, dolor sit Tempora</p>
-          </div>
-        </div>
-        <div className="card stacked">
-          <img src={cardImg4} alt="" className="card__img" />
-          <div className="card__content">
-            <h2 className="card__title">Lorem, ipsum dolor.</h2>
-            <p className="card__price">$325</p>
-            <p className="card__description">Lorem, ipsum dolor.</p>
-          </div>
-        </div>
-        <div className="card stacked">
-          <img src={cardImg5} alt="" className="card__img" />
-          <div className="card__content">
-            <h2 className="card__title">dolor.</h2>
-            <p className="card__price">$325</p>
-            <p className="card__description">Lorem, ipsum dolor.</p>
-          </div>
-        </div>
-        <div className="card stacked">
-          <img src={cardImg6} alt="" className="card__img" />
-          <div className="card__content">
-            <h2 className="card__title">Lorem, ipsum. Lorem, ipsum dolor.</h2>
-            <p className="card__price">$325</p>
-            <p className="card__description">Lorem, ipsum dolor.</p>
-          </div>
-        </div>
-        <div className="card stacked">
-          <img src={cardImg7} alt="" className="card__img" />
-          <div className="card__content">
-            <h2 className="card__title">ipsum dolor.</h2>
-            <p className="card__price">$325</p>
+            <h2 className="card__title">Space tourism website</h2>
             <p className="card__description">
-              Lorem, ipsum dolor. Lorem, ipsum dolor.
+              This is a frontend mentor website challenge named 'Space tourism
+              multi-page website'. In this project i have used react router and
+              the page is responsive.
             </p>
+            <Link
+              className="project-link"
+              to={"https://curious-truffle-09eab6.netlify.app"}
+              target="blank"
+            >
+              Project link
+            </Link>
+          </div>
+        </div>
+        <div className="card stacked">
+          <img src={proj2} alt="" className="card__img" />
+          <div className="card__content">
+            <h2 className="card__title">Dictionary web app</h2>
+            <p className="card__description">
+              This is a frontend mentor website challenge named 'Dictionary web
+              app'. In this project i have used react. website is responsive and
+              has theme change possibility.
+            </p>
+            <Link
+              className="project-link"
+              to={"https://superb-druid-9d3988.netlify.app"}
+              target="blank"
+            >
+              Project link
+            </Link>
+          </div>
+        </div>
+        <div className="card stacked">
+          <img src={proj3} alt="" className="card__img" />
+          <div className="card__content">
+            <h2 className="card__title">REST Countries API</h2>
+            <p className="card__description">
+              This is a frontend mentor website challenge named 'REST Countries
+              API with color theme switcher'. In this project I have used react.
+              website is responsive and has theme change possibility.
+            </p>
+            <Link
+              className="project-link"
+              to={"https://gorgeous-cobbler-04f350.netlify.app"}
+              target="blank"
+            >
+              Project link
+            </Link>
+          </div>
+        </div>
+        <div className="card stacked">
+          <img src={proj4} alt="" className="card__img" />
+          <div className="card__content">
+            <h2 className="card__title">Trivia</h2>
+            <p className="card__description">
+              This is a trivia website, where you can answer trivia questions.
+              you can choose number of questions, category and difficulty.
+            </p>
+            <Link
+              className="project-link"
+              to={"https://verdant-frangollo-9bebd7.netlify.app"}
+              target="blank"
+            >
+              Project link
+            </Link>
           </div>
         </div>
       </div>
