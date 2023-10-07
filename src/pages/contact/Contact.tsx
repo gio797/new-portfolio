@@ -12,7 +12,7 @@ function Contact() {
         <button onClick={() => setShowContacts(true)}>Get in touch.</button>
       )}
       {showContacts ? (
-        <div className="contact-info">
+        <div className="contact-info-modal">
           <div className="social">
             <h3>
               Social Links:{" "}
