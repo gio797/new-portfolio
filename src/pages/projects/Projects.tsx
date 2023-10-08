@@ -1,9 +1,9 @@
 import "./projects.css";
 
-import proj1 from "../../assets/projects/proj1.png";
-import proj2 from "../../assets/projects/proj2.png";
-import proj3 from "../../assets/projects/proj3.png";
-import proj4 from "../../assets/projects/proj4.png";
+import proj1 from "../../assets/projects/project11.png";
+import proj2 from "../../assets/projects/project22.png";
+import proj3 from "../../assets/projects/project33.png";
+import proj4 from "../../assets/projects/project44.png";
 import { Link } from "react-router-dom";
 
 function Projects() {
