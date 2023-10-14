@@ -4,6 +4,7 @@ import proj1 from "../../assets/projects/project11.png";
 import proj2 from "../../assets/projects/project22.png";
 import proj3 from "../../assets/projects/project33.png";
 import proj4 from "../../assets/projects/project44.png";
+import proj5 from "../../assets/projects/proj5.png";
 import { Link } from "react-router-dom";
 
 function Projects() {
@@ -75,6 +76,23 @@ function Projects() {
             <Link
               className="project-link"
               to={"https://verdant-frangollo-9bebd7.netlify.app"}
+              target="blank"
+            >
+              Project link
+            </Link>
+          </div>
+        </div>
+        <div className="card stacked">
+          <img src={proj5} alt="" className="card__img" />
+          <div className="card__content">
+            <h2 className="card__title">Fitness App</h2>
+            <p className="card__description">
+              This is a fitness app. Where I used React, typescript, React Hook
+              Form, and FormSubmit.
+            </p>
+            <Link
+              className="project-link"
+              to={"https://eloquent-panda-97878a.netlify.app"}
               target="blank"
             >
               Project link
